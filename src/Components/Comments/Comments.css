@@ -1,0 +1,6 @@
+.todo-list {
+    margin-top: 20px;
+    list-style: none;
+    display: grid;
+    gap: 20px;
+}

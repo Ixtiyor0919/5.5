@@ -1,0 +1,136 @@
+.aside-container {
+    width: 21%;
+    display: grid;
+    margin-right: 2%;
+    gap: 24px;
+}
+.mentor {
+    padding: 52px 68px 24px 24px;
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 10px;
+}
+.mentor-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+.mentor-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.buttons {
+    padding: 24px 50px 24px 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    row-gap: 10px;
+}
+.btn {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 6px 16px;
+    color: #4661E6;
+    border: none;
+    background: #F2F4FF;
+    border-radius: 10px;
+}
+.btn:hover {
+    background: #CFD7FF;
+}
+.btn--active {
+    color: #FFFFFF;
+    background: #4661E6;
+}
+.roadmap {
+    padding: 19px 24px 24px 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: grid;
+    row-gap: 20px;
+}
+.roadmap-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.roadmap-top-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+.roadmap-top-link {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #4661E6;
+}
+.roadmap-top-link:active {
+    color: #8397F8;
+}
+.roadmap-bottom {
+    display: grid;
+    row-gap: 6px;
+}
+.roadmap-bottom-card {
+    display: flex;
+    align-items: center;
+}
+.roadmap-bottom-card-color-first {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #F49F85;
+}
+.roadmap-bottom-card-color-second {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #AD1FEA;
+}
+.roadmap-bottom-card-color-third {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #62BCFA;
+}
+.roadmap-bottom-card-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left: 16px;
+    color: #647196;
+}
+.roadmap-bottom-card-variable {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+    margin-left: auto;
+    color: #647196;
+}

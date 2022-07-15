@@ -1,0 +1,65 @@
+.header-container {
+    padding: 12px 16px 14px 24px;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    background: #373F68;
+    border-radius: 10px;
+}
+.header-left {
+    display: flex;
+    align-items: center !important;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.header-logo-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    margin: 0 38px 0 16px;
+    color: #FFFFFF;
+}
+.header-middle {
+    display: flex;
+    align-items: center;
+}
+.header-select-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+}
+.header-select {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.header-btn {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 24px;
+    color: #F2F4FE;
+    background: #AD1FEA;
+    border: none;
+    border-radius: 10px;
+}
+.header-btn:hover {
+    background: #C75AF6;
+    border-radius: 10px;
+}
