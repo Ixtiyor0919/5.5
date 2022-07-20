@@ -1,6 +1,6 @@
-import './wrapper.css'
-import Sidebar from '../Sidebar/Sidebar'
+import './wrapper.css';
 import Main from '../Main/Main'
+import Sidebar from '../Sidebar/Sidebar';
 
 function Wrapper() {
     return (

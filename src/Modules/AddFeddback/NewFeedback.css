@@ -1,0 +1,117 @@
+.new-feedback-container {
+    width: 540px;
+    padding: 180px 0;
+    margin: 0 auto;
+}
+.new-feedback-wrapper {
+    padding: 52px 42px 40px 42px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.new-feedback-wrapper-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.333333px;
+    margin-bottom: 16px;
+    color: #3A4374;
+}
+.inner-card-title, .back {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.194444px;
+    margin-top: 24px;
+    text-decoration: none;
+    color: #3A4374;
+}
+.back {
+    margin-bottom: 40px;
+    line-height: 20px;
+    color: #647196;
+    display: block;
+}
+.back::before, .comment-back::before {
+    content: '';
+    width: 8px;
+    height: 10px;
+    margin-right: 16px;
+    display: inline-block;
+    background-image: url(../images/back-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.back:active {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.inner-card-description {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #647196;
+}
+.feedback-title, .new-feedback-detail, .new-feedback-select {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #F7F8FD;
+    border-radius: 5px;
+}
+.new-feedback-select:before {
+    content: '';
+    width: 8px;
+    height: 4px;
+    display: inline-block;
+    background-image: url(../images/new-feedback-celect-icon.png);
+    background-repeat: no-repeat;
+}
+.feedback-title::placeholder {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+}
+.new-feedback-buttons {
+    margin-top: 32px;
+    margin-left: auto;
+    display: table;
+}
+.new-feedback-cancel-btn {
+    margin-right: 16px;
+    background: #3A4374;
+    border-radius: 10px;
+}
+.new-feedback-add-btn {
+    background: #AD1FEA;
+    border-radius: 10px;
+}
+.new-feedback-add-btn, .new-feedback-cancel-btn {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 24px;
+    border: none;
+    color: #F2F4FE;
+}
+.new-feedback-add-btn:active {
+    cursor: pointer;
+    background: #C75AF6;
+}
+.new-feedback-cancel-btn:active {
+    cursor: pointer;
+    background: #656EA3;
+}

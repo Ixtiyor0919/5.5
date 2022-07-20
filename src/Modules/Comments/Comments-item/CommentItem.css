@@ -1,0 +1,50 @@
+.comment-item {
+    padding-bottom: 16px;
+    background: #FFFFFF;
+}
+.user-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 32px;
+    border-radius: 50%;
+}
+.comment-inner-card-inner {
+    display: flex;
+    margin-bottom: 17px;
+}
+.user-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.194444px;
+    color: #3A4374;
+}
+.user-username {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+}
+.user-reply {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: auto;
+    color: #4661E6;
+}
+.user-description {
+    width: 60%;
+    margin-left: 11%;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #647196;
+}

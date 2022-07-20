@@ -1,0 +1,23 @@
+.back {
+    display: block;
+    border: none;
+    background: none;
+}
+.new-feedback-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    justify-content: space-between;
+}
+.new-feedback-delete-btn {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 24px;
+    border: none;
+    color: #F2F4FE;
+    background: #D73737;
+    border-radius: 10px;
+}

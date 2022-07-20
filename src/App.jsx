@@ -1,20 +1,27 @@
 // import logo from './logo.svg';
-import { useState } from 'react';
 import { Routes, Route} from 'react-router-dom';
 import './App.css';
-import CommentItem from './Components/Comments/Comments-item/Comments-item';
-import Comments from './Components/Comments/CommentsWrapper';
-import Wrapper from './Components/Container-wrapper/wrapper';
+import { useState, useEffect } from 'react';
+import Comments from './Modules/Comments/CommentsWrapper';
+import Wrapper from './Modules/Container-wrapper/wrapper'
+import NewFeedback from './Modules/AddFeddback/NewFeedback';
+import EditFeedback from './Modules/EditFeedback/EditFeedback';
 
 function App() {
-  const [todos,setTodos] = useState([])
+  const [data, setData] = useState([])
 
+    useEffect(() => {
+        fetch('http://localhost:3001/productRequests')
+                .then(response => response.json())
+                .then(data => setData(data))
+            }, [])
   return (
     <>
       <Routes>
-        <Route path='/' element={<Wrapper setTodos={setTodos} />} />  
-        <Route path='/Comments/:id' element={<Comments todos={todos}/>} />
-        <Route path="*" element={<CommentItem todos={todos} />} />
+        <Route path='/' element={<Wrapper/>} />  
+        <Route path='/Comments:id/' element={<Comments data={data}/> } />
+        <Route path='/NewFeedback' element={<NewFeedback />}/>
+        <Route path='/EditFeedback' element={<EditFeedback />}/>
       </Routes>
     </>
   );

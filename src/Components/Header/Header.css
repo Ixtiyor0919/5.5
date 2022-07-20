@@ -47,7 +47,7 @@
     outline: none;
     background-color: transparent;
 }
-.header-btn {
+.new-feedback {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 700;
@@ -59,7 +59,11 @@
     border: none;
     border-radius: 10px;
 }
-.header-btn:hover {
+.new-feedback:hover {
     background: #C75AF6;
     border-radius: 10px;
+}
+.new-feedback {
+    color: #F2F4FE;
+    text-decoration: none;
 }

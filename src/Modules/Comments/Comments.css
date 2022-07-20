@@ -1,0 +1,64 @@
+.comments-container {
+    width: 730px;
+    margin: 80px auto;
+}
+.comment-wrapper-top {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.comment-back {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: block !important;
+    color: #647196;
+    text-decoration: none;
+}
+.comment-back:active {
+    text-decoration-line: underline;
+}
+.edit-feedback {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 24px;
+    display: block;
+    margin-left: auto;
+    text-decoration: none;
+    border: none;
+    color: #F2F4FE;
+    background: #4661E6;
+    border-radius: 10px;
+}
+.edit-feedback:active {
+    cursor: pointer;
+    background: #7C91F9;
+}
+.comment-list {
+    padding: 24px 32px 48px 32px;
+    margin: 24px 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.comment-list-top {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+}
+.comment-length {
+    margin-right: 10px;
+}
+.comment-length, .comments-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}

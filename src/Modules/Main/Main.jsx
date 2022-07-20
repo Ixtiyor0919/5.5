@@ -1,7 +1,6 @@
-// import React from 'react';
 import './Main.css'
-import Header from '../Header/Header';
-import List from '../List/List';
+import Header from '../../Components/Header/Header';
+import List from '../../Components/List/List';
 
 function Main() {
     return(

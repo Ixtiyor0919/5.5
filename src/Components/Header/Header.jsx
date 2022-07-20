@@ -1,5 +1,6 @@
 import './Header.css'
 import Vector from '../Header/Vector.svg'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -16,8 +17,8 @@ function Header() {
                     <option value={2}>Most Upvotes</option>
                 </select>
             </div>
-           </div>
-           <button type="submit" className='header-btn'>+ Add Feedback</button>
+            </div>
+            <Link className='new-feedback' to={'/NewFeedback'}>+ Add Feedback</Link>
         </header>
     )
 }
