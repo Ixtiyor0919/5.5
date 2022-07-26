@@ -20,4 +20,21 @@
     color: #F2F4FE;
     background: #D73737;
     border-radius: 10px;
+} 
+.feedback-content {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    width: 405px;
+    height: 150px;
+    padding: 16px 24px 42px 24px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    resize: none;
+    outline: none;
+    color: #8C92B3;
+    background: #F7F8FD;
 }

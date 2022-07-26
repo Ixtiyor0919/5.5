@@ -13,19 +13,24 @@
     letter-spacing: -0.25px;
     color: #3A4374;
 }
-.add-comment-label {
-    padding: 16px 0 42px 24px;
+.add-comment-content {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    width: 614px;
+    height: 96px;
+    padding: 16px 24px 42px 24px;
     margin-bottom: 16px;
-    display: block;
-    background: #F7F8FD;
     border-radius: 5px;
-}
-.add-comment-input {
-    border: none;
+    border: 2px solid darkgray;
+    resize: none;
     outline: none;
-    background: none;
+    color: #8C92B3;
+    background: #F7F8FD;
 }
-.add-comment-input::placeholder, .add-comment-text {
+.add-comment-text {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;

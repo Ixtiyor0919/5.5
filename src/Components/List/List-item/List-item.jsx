@@ -5,7 +5,7 @@ function ListItem(props) {
     return(
         <>
            <div key={props.id}>
-                <Link to={`/Comments${props.id}`}  className='suggestion-item'>
+                <Link to={`/Comments-${props.id}`} key={props}  className='suggestion-item'>
                         <div className='suggestion-item-btn'>
                             {props.upvotes}
                         </div>
@@ -16,7 +16,7 @@ function ListItem(props) {
                             </p>
                             <button className='suggestion-item-card-btn'>{props.category}</button>
                         </div>
-                        <span className='suggestion-item-comment'>{props.id}</span>
+                        <span className='suggestion-item-comment'>{props.comments}</span>
                 </Link>
            </div>
         </>

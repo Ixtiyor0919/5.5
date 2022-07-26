@@ -2,13 +2,13 @@ import './Header.css'
 import Vector from '../Header/Vector.svg'
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({data}) {
     return (
         <header className='header-container container'>
            <div className='header-left'>
                 <div className='header-logo'>
                     <img src={Vector} alt="logo-img" className='header-logo-img'/>
-                    <h3 className='header-logo-title'>6 Suggestions</h3>
+                    <h3 className='header-logo-title'>{data} Suggestions</h3>
                 </div>
             <div className='header-middle'>
                 <p className='header-select-text'>Sort by:</p>

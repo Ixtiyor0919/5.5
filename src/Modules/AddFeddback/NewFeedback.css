@@ -1,6 +1,6 @@
 .new-feedback-container {
     width: 540px;
-    padding: 180px 0;
+    padding: 100px 0;
     margin: 0 auto;
 }
 .new-feedback-wrapper {
@@ -59,7 +59,7 @@
     margin-bottom: 16px;
     color: #647196;
 }
-.feedback-title, .new-feedback-detail, .new-feedback-select {
+.feedback-title, .new-feedback-select {
     width: 100%;
     padding: 10px 20px;
     border: none;
@@ -105,6 +105,7 @@
     line-height: 20px;
     padding: 12px 24px;
     border: none;
+    outline: none;
     color: #F2F4FE;
 }
 .new-feedback-add-btn:active {

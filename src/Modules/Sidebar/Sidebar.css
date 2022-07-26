@@ -37,6 +37,9 @@
     gap: 6px;
     row-gap: 10px;
 }
+.filter-label {
+    position: relative;
+}
 .btn {
     font-family: 'Jost';
     font-style: normal;
@@ -49,12 +52,19 @@
     background: #F2F4FF;
     border-radius: 10px;
 }
-.btn:hover {
-    background: #CFD7FF;
+.filter-radio {
+    width: 24px;
+    height: 27px;
+    position: absolute;
+    left: 35%;
+    opacity: 0;
 }
-.btn--active {
+.filter-radio:checked ~ .btn {
     color: #FFFFFF;
     background: #4661E6;
+}
+.btn:hover {
+    background: #CFD7FF;
 }
 .roadmap {
     padding: 19px 24px 24px 24px;

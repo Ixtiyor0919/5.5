@@ -1,6 +1,12 @@
 .todo-list {
+    height: 440px;
+    padding: 0 20px;
     margin-top: 20px;
     list-style: none;
+    overflow: auto;
     display: grid;
     gap: 20px;
+}
+.d-none {
+    display: none;
 }

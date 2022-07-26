@@ -1,6 +1,8 @@
+import { useRef } from "react";
 import "./Sidebar.css"
 
 function Sidebar() {
+    const filterRef = useRef()
     return(
         <>
            <div className="aside-container">
@@ -9,12 +11,30 @@ function Sidebar() {
                     <p className="mentor-text">Feedback Board</p>
                 </aside>
                 <aside className="buttons">
-                    <button className="btn btn--active">All</button>
-                    <button className="btn">UI</button>
-                    <button className="btn">UX</button>
-                    <button className="btn">Enhancement</button>
-                    <button className="btn">Bug</button>
-                    <button className="btn">Feature</button>
+                    <label className="filter-label" htmlFor="id-All">
+                        <input ref={filterRef} value='All' type="radio" name="filter" id="id-All" className="filter-radio"/>
+                        <span className="btn btn--active">All</span>
+                    </label>
+                    <label className="filter-label" htmlFor='id-UI'>
+                        <input ref={filterRef} value="UI" type="radio" name="filter" id="id-UI" className="filter-radio"/>
+                        <span className="btn">UI</span>
+                    </label>
+                    <label className="filter-label" htmlFor="id-UX">
+                        <input ref={filterRef} value="UX" type="radio" name="filter" id="id-UX" className="filter-radio"/>
+                        <span className="btn">UX</span>
+                    </label>
+                    <label className="filter-label" htmlFor='id-Enhancement'>
+                        <input ref={filterRef} value="Enhancement" type="radio" name="filter" id="id-Enhancement" className="filter-radio"/>
+                        <span className="btn">Enhancement</span>
+                    </label>
+                    <label className="filter-label" htmlFor="id-Bug">
+                        <input ref={filterRef} value="Bug" type="radio" name="filter" id="id-Bug" className="filter-radio"/>
+                        <span className="btn">Bug</span>
+                    </label>
+                    <label className="filter-label" htmlFor="id-Feature">
+                        <input ref={filterRef} value="Feature" type="radio" name="filter" id="id-Feature" className="filter-radio"/>
+                        <span className="btn">Feature</span>
+                    </label>
                 </aside>
                 <aside className="roadmap">
                     <div className="roadmap-top">
